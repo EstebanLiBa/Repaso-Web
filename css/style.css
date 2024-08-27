@@ -1,0 +1,59 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    background-color: #E5E5E5;
+}
+
+/*HEADER*/
+
+/*BODY*/
+body #asideYMain {
+    text-align: center;
+}
+
+#asideYMain aside {
+    display: inline-block;
+
+    width: 35%;
+}
+
+#asideYMain main {
+    display: inline-block;
+
+    padding: 3em;
+
+    background-color: #FFFFFF;
+    border-radius: 1.5em;
+}
+
+/*MAIN*/
+main p {
+    text-align: justify;
+}
+
+main p:nth-child(3) {
+    text-align: center;
+}
+
+main form #barrasDeTexto input {
+    display: block;
+}
+
+main form a {
+    display: block;
+}
+
+main nav a {
+    display: inline-block;
+}
+
+main nav a figure {
+    width: 2em;
+}
+
+main nav a figure img {
+    width: 100%;
+}
