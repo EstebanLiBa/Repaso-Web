@@ -3,13 +3,23 @@
     padding: 0%;
 }
 
-/*@font-face {
-    /*font-family: ;
-    src: url();
-}*/
+/*FUENTES*/
+@font-face {
+    font-family: "Inter";
+    src: url(/fonts/static/Inter_18pt-Medium.ttf);
+    font-weight: 500;
+    font-style: "normal";
+}
+@font-face {
+    font-family: "Inter";
+    src: url(/fonts/static/Inter_18pt-Regular.ttf);
+    font-weight: 400;
+    font-style: "normal";
+}
 
+/*HTML*/
 html {
-    background-color: #E5E5E5;
+    background-color: lightgrey;
 }
 
 /*HEADER*/
@@ -35,20 +45,70 @@ body #asideYMain {
 }
 
 /*MAIN*/
-main p {
-    text-align: justify;
+
+main form {
+    width: 13em;
 }
 
-main p:nth-child(3) {
-    text-align: center;
+main form p {
+    text-align: justify;
+
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 14px;
+    color: #201E6D;
+}
+
+main form #barrasDeTexto {
+    width: 100%;
 }
 
 main form #barrasDeTexto input {
+    padding: 0.5em;
     display: block;
+    width: 90%;
+
+    border: #96A6B9 solid 0.5px;
+    border-radius: 5px;
+}
+main form #barrasDeTexto #usuario {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+main form #barrasDeTexto #contraseña {
+    margin-top: 0.5em;
+}
+
+main form button {
+    padding-top: 0.65em;
+    padding-bottom: 0.65em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    width: 100%;
+    border-radius: 0.25em;
+
+    border: white;
+    background-color: #A22CFF;
+
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 12px;
+    color:#FFFFFF;
 }
 
 main form a {
     display: block;
+
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 12px;
+}
+
+main nav p {
+    text-align: center;
+
+    font-size: 11px;
+    color: #96A6B9;
 }
 
 main nav a {
